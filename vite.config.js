@@ -8,7 +8,7 @@ export default defineConfig({
   publicDir: 'estaticos',
   build: {
     outDir: 'publico',
-    assetsDir: 'recursos',
+    assetsDir: 'estaticos',
     sourcemap: true,
   },
 });
