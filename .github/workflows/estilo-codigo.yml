@@ -10,37 +10,22 @@ on:
 
 jobs:
   ci:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [16]
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Extraer cambios del repositorio 🛎
-        uses: actions/checkout@master
-
-      - name: Configurar ambiente de Node 🏗
-        uses: actions/setup-node@v2.1.2
+      - name: 🐯 Obtener código del repositorio
+        uses: actions/checkout@v3
         with:
-          node-version: ${{ matrix.node }}
-          check-latest: true
+          fetch-depth: 0
 
-      - name: Configurar Yarn 🛠
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - name: Cache node_modules 📦
-        uses: actions/cache@v2
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      - name: 🐝 Usar Node
+        uses: actions/setup-node@v3
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Instalar dependencias 👨🏻‍💻
-        run: yarn
+          node-version: 'lts/*'
 
-      - name: Comprobar estilo del código 👀
+      - name: 🦒 Instalar dependencias
+        run: |
+          yarn install --frozen-lockfile
+
+      - name: 👀 Buscar errores
         run: yarn lint
