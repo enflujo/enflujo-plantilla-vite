@@ -11,4 +11,11 @@ export default defineConfig({
     assetsDir: 'estaticos',
     sourcemap: true,
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler',
+      },
+    },
+  },
 });
