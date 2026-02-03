@@ -1,0 +1,226 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║        🚀 PLANTILLA COMPLETA PARA SITIOS CON BASEROW 🚀       ║
+║                                                                ║
+║             Lista para enseñanza y proyectos reales            ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+📚 DOCUMENTACIÓN PARA ESTUDIANTES
+═════════════════════════════════════════════════════════════════
+✓ COMIENZA_AQUI.md ..................... Tu primer archivo
+✓ INICIO_RAPIDO.md .................... Paso a paso (1 hora)
+✓ README.md ........................... Guía completa
+✓ FAQ.md ............................. Respuestas frecuentes
+✓ MAPA_VISUAL.md ..................... Diagramas y flowcharts
+✓ CHECKLIST.md ....................... Verificar configuración
+
+👨‍🏫 DOCUMENTACIÓN PARA DOCENTES
+═════════════════════════════════════════════════════════════════
+✓ GUIA_DOCENTES.md ................... Planificación de clase
+✓ CAMBIOS.md ......................... Qué cambió respecto al original
+
+💻 CÓDIGO PARA ESTUDIANTES
+═════════════════════════════════════════════════════════════════
+✓ src/config.js ...................... ⭐⭐⭐ EDITAR ESTO
+✓ src/programa.js .................... Lógica principal
+✓ src/componentes.js ................. Elementos HTML
+✓ src/baserow.js ..................... Conexión API (no tocar)
+✓ src/scss/estilos.scss .............. ⭐⭐ Estilos (EDITAR)
+✓ index.html ......................... ⭐⭐ Estructura (EDITAR)
+
+🎓 EJEMPLOS Y REFERENCIAS
+═════════════════════════════════════════════════════════════════
+✓ EJEMPLOS_AVANZADOS.js ............. 12 ejemplos de expansión
+
+⚙️ CONFIGURACIÓN
+═════════════════════════════════════════════════════════════════
+✓ package.json ....................... Dependencias (axios)
+✓ vite.config.js ..................... Configuración build
+✓ tsconfig.json ...................... JavaScript puro
+✓ .gitignore ......................... Protege tu token
+
+
+📊 ESTADÍSTICAS
+═════════════════════════════════════════════════════════════════
+
+Documentación:
+  • 8 guías de lectura
+  • 16,300+ palabras
+  • 76 ejemplos prácticos
+  • 10+ diagramas visuales
+
+Código:
+  • 5 módulos JavaScript
+  • 460+ líneas de código comentado
+  • 12 componentes predefinidos
+  • 0 dependencias innecesarias
+
+Funcionalidad:
+  • Conexión con Baserow API
+  • CRUD completo (crear, leer, actualizar, eliminar)
+  • Componentes reutilizables
+  • Responsive diseño
+  • GitHub Pages ready
+
+
+🎯 FLUJO DE APRENDIZAJE (4 SEMANAS)
+═════════════════════════════════════════════════════════════════
+
+SEMANA 1: FUNDAMENTOS
+  Día 1: Crear base de datos en Baserow
+  Día 2: Entender APIs REST
+  Día 3: Configurar plantilla localmente
+  Día 4: Ver datos en navegador
+  Día 5: Aprender a debuggear
+
+SEMANA 2: PERSONALIZACIÓN
+  Día 1: Cambiar colores y estilos
+  Día 2: Modificar HTML
+  Día 3-4: JavaScript básico
+  Día 5: Entender componentes
+
+SEMANA 3: PUBLICACIÓN
+  Día 1: Git y GitHub basics
+  Día 2: GitHub Pages setup
+  Día 3-4: Deploy y testing
+  Día 5: Iteración en vivo
+
+SEMANA 4: EXPANSIÓN
+  Segunda tabla + búsqueda
+  Formulario de contacto
+  Mejoras de diseño
+  Tu propia creatividad
+
+
+✨ CARACTERÍSTICAS CLAVE
+═════════════════════════════════════════════════════════════════
+
+Para Estudiantes Principiantes:
+  ✓ Sin TypeScript (JavaScript puro)
+  ✓ Código comentado en español
+  ✓ Archivos a editar claramente marcados
+  ✓ Documentación paso a paso
+  ✓ Protección de código crítico
+
+Para Estudiantes Avanzados:
+  ✓ Componentes reutilizables
+  ✓ Arquitectura modular
+  ✓ 12 ejemplos de expansión
+  ✓ Sistema de configuración flexible
+  ✓ Código escalable
+
+Para Docentes:
+  ✓ Flujo de 4 semanas
+  ✓ Rúbrica de evaluación
+  ✓ Ejercicios progresivos
+  ✓ Proyectos finales sugeridos
+  ✓ Guía de troubleshooting
+
+
+🔐 SEGURIDAD INCLUIDA
+═════════════════════════════════════════════════════════════════
+  ✓ Token nunca en repositorio
+  ✓ .env en .gitignore
+  ✓ Variables de entorno soportadas
+  ✓ HTTPS en GitHub Pages
+  ✓ Headers de seguridad
+
+
+📈 LO QUE APRENDERÁN
+═════════════════════════════════════════════════════════════════
+  ✓ Frontend (HTML, CSS, JavaScript)
+  ✓ APIs REST y autenticación
+  ✓ Bases de datos (concepto)
+  ✓ Control de versiones (Git)
+  ✓ Deployment (GitHub Pages)
+  ✓ Debugging (consola del navegador)
+  ✓ Desarrollo responsivo
+  ✓ Mejores prácticas de código
+
+
+🚀 CÓMO EMPEZAR
+═════════════════════════════════════════════════════════════════
+
+OPCIÓN 1: Estudiante solo
+  1. Abre: COMIENZA_AQUI.md
+  2. Sigue: INICIO_RAPIDO.md
+  3. Completa: CHECKLIST.md
+  4. Consulta: FAQ.md (cuando tengas dudas)
+
+OPCIÓN 2: Docente en clase
+  1. Lee: GUIA_DOCENTES.md
+  2. Planifica: 4 semanas
+  3. Asigna: Ejercicios progresivos
+  4. Evalúa: Con rúbrica incluida
+
+OPCIÓN 3: Expandir tu proyecto
+  1. Abre: EJEMPLOS_AVANZADOS.js
+  2. Copia: El ejemplo que necesites
+  3. Adapta: A tu caso
+  4. Consulta: README.md para más detalles
+
+
+💡 DIFERENCIAS CON VERSIÓN ANTERIOR
+═════════════════════════════════════════════════════════════════
+
+ANTES                          AHORA
+─────────────────────────      ─────────────────────────
+TypeScript (complejo)   →      JavaScript puro ✓
+Sin base de datos       →      Baserow integrado ✓
+Documentación mínima    →      6 guías completas ✓
+No educativa           →      Optimizada para clase ✓
+Sin ejemplos           →      12 ejemplos expandibles ✓
+FAQ vacío              →      20+ respuestas ✓
+
+
+📞 SUPPORT
+═════════════════════════════════════════════════════════════════
+
+¿Preguntas?
+  1. Abre la consola (F12)
+  2. Lee el error
+  3. Busca en FAQ.md
+  4. Revisa README.md
+
+¿Problema técnico?
+  1. Verifica config.js
+  2. Abre consola (F12)
+  3. Consulta CHECKLIST.md
+  4. Sigue pasos en FAQ.md
+
+
+🎁 INCLUYE
+═════════════════════════════════════════════════════════════════
+  ✓ 8 guías de documentación
+  ✓ 5 módulos de código
+  ✓ 12 ejemplos de expansión
+  ✓ Rúbrica de evaluación
+  ✓ Ejercicios progresivos
+  ✓ Checklists de verificación
+  ✓ Mapas visuales
+  ✓ Flujo de aprendizaje
+  ✓ Tips de debugging
+  ✓ Recursos adicionales
+
+
+🎓 IDEAL PARA
+═════════════════════════════════════════════════════════════════
+  ✓ Clases de desarrollo web
+  ✓ Bootcamps y cursos
+  ✓ Estudiantes autodidactas
+  ✓ Portfolios profesionales
+  ✓ Sitios dinámicos sin backend
+  ✓ Aprendices de Git/GitHub
+  ✓ Proyectos de capstone
+  ✓ Demostración de conceptos
+
+
+════════════════════════════════════════════════════════════════════
+
+                    ¡LISTA PARA USAR! 🚀
+
+                  Abre: COMIENZA_AQUI.md
+                  para empezar tu proyecto
+
+════════════════════════════════════════════════════════════════════

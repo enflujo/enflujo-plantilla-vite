@@ -1,19 +1,36 @@
 import { defineConfig } from 'vite';
 import sitemap from 'vite-plugin-sitemap';
 
-// Configuración centralizada
-const hostname = 'https://ejemplo.com'; // Cambiar por tu dominio
+/**
+ * CONFIGURACIÓN DE VITE
+ *
+ * Para GitHub Pages, cambia 'base' según dónde publiques:
+ * - Si es un sitio personal (usuario.github.io): base: '/'
+ * - Si es en un repositorio: base: '/nombre-repositorio/'
+ */
+
+// Detectar el entorno
+const isProd = process.env.NODE_ENV === 'production';
+
+// URL del sitio (cambiar en config.js)
+const hostname = 'https://ejemplo.com';
 
 export default defineConfig({
-  // base: '/', // Usar '/nombre-repo/' si se publica en GitHub Pages u otra subruta
+  // IMPORTANTE: Descomenta y ajusta según donde publiques en GitHub Pages
+  // base: '/', // Para sitio personal usuario.github.io
+  // base: '/mi-proyecto/', // Para proyecto en repositorio
+
   server: {
     port: 3000,
   },
   publicDir: 'estaticos',
   build: {
-    outDir: 'publico',
-    assetsDir: 'estaticos',
+    outDir: 'dist', // GitHub Pages busca aquí por defecto
+    assetsDir: 'assets',
     sourcemap: false,
+    // Optimizaciones para producción
+    minify: 'terser',
+    cssCodeSplit: true,
   },
   css: {
     preprocessorOptions: {
@@ -25,16 +42,14 @@ export default defineConfig({
   plugins: [
     sitemap({
       hostname,
-      outDir: 'publico',
+      outDir: 'dist',
       robots: [
         {
           userAgent: '*',
           allow: '/',
         },
       ],
-      dynamicRoutes: [
-        '/', // Agregar aquí rutas adicionales si las hay
-      ],
+      dynamicRoutes: ['/'],
     }),
   ],
 });

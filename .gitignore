@@ -1,15 +1,19 @@
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
 publico
+dist
 dist-ssr
 *.local
+
+# IMPORTANTE: Variables de entorno con credenciales sensibles
+.env
+.env.local
+.env.*.local
 
 .vscode/*
 !.vscode/extensions.json
@@ -19,12 +23,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Ver documentación de Yarn moderno (> v2): https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
-.yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions

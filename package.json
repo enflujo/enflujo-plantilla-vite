@@ -1,15 +1,17 @@
 {
   "name": "enflujo-plantilla-vite",
-  "packageManager": "yarn@4.12.0",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "prettier --check .",
     "lint:fix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.24",
@@ -17,7 +19,6 @@
     "postcss": "^8.5.6",
     "prettier": "^3.8.1",
     "sass": "^1.97.3",
-    "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vite-plugin-sitemap": "^0.8.2"
   }
