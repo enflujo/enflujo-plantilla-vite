@@ -33,3 +33,6 @@ jobs:
 
       - name: 👀 Buscar errores
         run: yarn lint
+
+      - name: 🏗️ Verificar compilación
+        run: yarn build
